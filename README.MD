@@ -44,8 +44,13 @@ mvnw archetype:generate \
     -DinteractiveMode=false \
     -DgroupId=com.ipostu.chess.platform.server.persistence \
     -DartifactId=persistence
+
+# Run spring boot
+mvnw -f ./chess-platform-server/pom.xml clean install
+mvnw -f ./chess-platform-server/pom.xml -pl entrypoint spring-boot:run
 ```
 
 ## References
 
 - <https://github.com/github/gitignore/blob/main/Maven.gitignore>
+- <https://www.baeldung.com/maven-multi-module>
