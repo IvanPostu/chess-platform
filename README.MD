@@ -75,8 +75,10 @@ go movetime 1000
 position startpos moves e2e4 e7e5 g1f3
 go movetime 1000
 
-# game1
-position startpos moves e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d3 d7d6 e1g1 c5b6 f1e1 e8g8 h2h3 a7a5 b1d2 h7h6 c4b5 c8e6 d2c4 b6c5 f3e5 d6e5 a2a4 d8e7 d1e2 f6h7 c1d2 a8d8 a1d1 e7h4 b5c6 e6c4 d3c4 b7c6 b2b4 c5e7 c4c5 d8a8 g1h2 h7f6 d1a1 f8d8 a1a2 f6h7 e1d1 h7f8 g2g3 h4f6 d1a1 f6g6 h3h4 f8h7 a1e1 g6e6 a2a3
+# game1: bot vs bot, e6h3...f8f2 is my sabotage for black
+# last step belongs to white: e8f8
+# black lost
+position startpos moves e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d3 d7d6 e1g1 c5b6 f1e1 e8g8 h2h3 a7a5 b1d2 h7h6 c4b5 c8e6 d2c4 b6c5 f3e5 d6e5 a2a4 d8e7 d1e2 f6h7 c1d2 a8d8 a1d1 e7h4 b5c6 e6c4 d3c4 b7c6 b2b4 c5e7 c4c5 d8a8 g1h2 h7f6 d1a1 f8d8 a1a2 f6h7 e1d1 h7f8 g2g3 h4f6 d1a1 f6g6 h3h4 f8h7 a1e1 g6e6 a2a3 f7f5 e4f5 e6f5 h2g2 h7f6 a3a2 f5e6 d2e3 f6d5 a2a3 d8e8 e3d2 e6h3 g2h3 e8f8 a3a2 f8f2 e2f2 a8f8 f2f8 e7f8 e1e5 a5b4 c3b4 d5b6 a4a5 b6c8 e5e8 c8d6 c5d6 c7d6 a5a6 g8f7 e8e1 c6c5 a6a7 g7g5 a7a8q g5g4 h3g4 h6h5 g4f5 c5c4 a2a7 f7g8 e1e8 c4c3 e8f8
 go movetime 1000
 ```
 
@@ -87,3 +89,5 @@ go movetime 1000
 - <https://www.w3schools.com/git/git_submodules.asp>
 - Minimal UCI viewer: <https://www.dcode.fr/uci-chess-notation>
 - Powerful UCI viewer: (PGN) <https://chess-online.net/analyze>
+- <https://www.gnu.org/software/chess/chess.html>
+- <https://www.andreinc.net/2021/04/22/writing-a-universal-chess-interface-client-in-java>
